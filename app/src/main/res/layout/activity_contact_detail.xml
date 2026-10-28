@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="←  Chi tiết liên hệ"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:paddingStart="16dp"
+            android:background="#008577" />
+
+        <TextView
+            android:id="@+id/txtChiTietHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trần Thị Bình"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/txtChiTietSoDienThoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0912345678"
+            android:textSize="18sp"
+            android:textColor="#008577"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtChiTietNhom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhóm: Gia đình"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtChiTietGioiTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giới tính: Nữ"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txtChiTietGhiChu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/txtChiTietYeuThich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yêu thích"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnGoiDien"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Gọi điện"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#008577"
+            android:layout_marginTop="28dp" />
+
+        <Button
+            android:id="@+id/btnQuayLai"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Quay lại"
+            android:textColor="#008577"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnXoaLienHe"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Xóa liên hệ"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
